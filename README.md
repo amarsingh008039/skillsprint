@@ -29,7 +29,7 @@ SkillSprintLite is a lightweight, secure backend service built with Spring Boot 
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 Client
 ↓
@@ -62,8 +62,8 @@ These are used to **enrich challenge responses** by attaching:
 Example:
 ```java
 strategy.enrichChallengeDetails(response, "EASY");
-
-# Folder Structure
+```
+## Folder Structure
 src/main/java/
 ├── controller/
 ├── service/
@@ -75,7 +75,7 @@ src/main/java/
 └── config/
 
 
-# Future Enhancements
+## Future Enhancements
 Admin dashboard UI for challenge management
 
 LLM integration to generate challenges dynamically
